@@ -16,6 +16,13 @@
 		667DB7B428DFE9FA0046F5E9 /* MelfNoteSharingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667DB7B328DFE9FA0046F5E9 /* MelfNoteSharingTests.swift */; };
 		667DB7BE28DFE9FA0046F5E9 /* MelfNoteSharingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667DB7BD28DFE9FA0046F5E9 /* MelfNoteSharingUITests.swift */; };
 		667DB7C028DFE9FA0046F5E9 /* MelfNoteSharingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667DB7BF28DFE9FA0046F5E9 /* MelfNoteSharingUITestsLaunchTests.swift */; };
+		667DB7CE28DFF0A20046F5E9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667DB7CD28DFF0A20046F5E9 /* MainViewController.swift */; };
+		667DB7D128DFFF8A0046F5E9 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667DB7D028DFFF8A0046F5E9 /* Subject.swift */; };
+		667DB7D428E0840D0046F5E9 /* SearchCatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667DB7D328E0840D0046F5E9 /* SearchCatalogView.swift */; };
+		667DB7D628E090730046F5E9 /* NewSubjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667DB7D528E090730046F5E9 /* NewSubjectViewController.swift */; };
+		6ADFF1D92CD073A267FB78F5 /* Pods_MelfNoteSharingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A76C79BAE281AB21017C8C2 /* Pods_MelfNoteSharingTests.framework */; };
+		73FB1F77803606E7383056DB /* Pods_MelfNoteSharing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 544F5F4BCC7AD459872425A8 /* Pods_MelfNoteSharing.framework */; };
+		D493DE30A75D0C673B8F0D4A /* Pods_MelfNoteSharing_MelfNoteSharingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9660837AB18CD47EE4A2EE9D /* Pods_MelfNoteSharing_MelfNoteSharingUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F63B327F588E639607BFDD4 /* Pods-MelfNoteSharing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MelfNoteSharing.release.xcconfig"; path = "Target Support Files/Pods-MelfNoteSharing/Pods-MelfNoteSharing.release.xcconfig"; sourceTree = "<group>"; };
+		1547E99351D10821487B3094 /* Pods-MelfNoteSharingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MelfNoteSharingTests.release.xcconfig"; path = "Target Support Files/Pods-MelfNoteSharingTests/Pods-MelfNoteSharingTests.release.xcconfig"; sourceTree = "<group>"; };
+		252E47A66A58FDEFCBAE7430 /* Pods-MelfNoteSharingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MelfNoteSharingTests.debug.xcconfig"; path = "Target Support Files/Pods-MelfNoteSharingTests/Pods-MelfNoteSharingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		30D9ABC1F62ED78BC830D2C3 /* Pods-MelfNoteSharing-MelfNoteSharingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MelfNoteSharing-MelfNoteSharingUITests.debug.xcconfig"; path = "Target Support Files/Pods-MelfNoteSharing-MelfNoteSharingUITests/Pods-MelfNoteSharing-MelfNoteSharingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		544F5F4BCC7AD459872425A8 /* Pods_MelfNoteSharing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MelfNoteSharing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		667DB79928DFE9F90046F5E9 /* MelfNoteSharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MelfNoteSharing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		667DB79C28DFE9F90046F5E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		667DB79E28DFE9F90046F5E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +61,14 @@
 		667DB7B928DFE9FA0046F5E9 /* MelfNoteSharingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MelfNoteSharingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		667DB7BD28DFE9FA0046F5E9 /* MelfNoteSharingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelfNoteSharingUITests.swift; sourceTree = "<group>"; };
 		667DB7BF28DFE9FA0046F5E9 /* MelfNoteSharingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelfNoteSharingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		667DB7CD28DFF0A20046F5E9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		667DB7D028DFFF8A0046F5E9 /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		667DB7D328E0840D0046F5E9 /* SearchCatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCatalogView.swift; sourceTree = "<group>"; };
+		667DB7D528E090730046F5E9 /* NewSubjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSubjectViewController.swift; sourceTree = "<group>"; };
+		6A76C79BAE281AB21017C8C2 /* Pods_MelfNoteSharingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MelfNoteSharingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9660837AB18CD47EE4A2EE9D /* Pods_MelfNoteSharing_MelfNoteSharingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MelfNoteSharing_MelfNoteSharingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A9E3A9AE3539FFB7988877 /* Pods-MelfNoteSharing-MelfNoteSharingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MelfNoteSharing-MelfNoteSharingUITests.release.xcconfig"; path = "Target Support Files/Pods-MelfNoteSharing-MelfNoteSharingUITests/Pods-MelfNoteSharing-MelfNoteSharingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BA8E0BE053F44CB36CA3C1EB /* Pods-MelfNoteSharing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MelfNoteSharing.debug.xcconfig"; path = "Target Support Files/Pods-MelfNoteSharing/Pods-MelfNoteSharing.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73FB1F77803606E7383056DB /* Pods_MelfNoteSharing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ADFF1D92CD073A267FB78F5 /* Pods_MelfNoteSharingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D493DE30A75D0C673B8F0D4A /* Pods_MelfNoteSharing_MelfNoteSharingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +106,8 @@
 				667DB7B228DFE9FA0046F5E9 /* MelfNoteSharingTests */,
 				667DB7BC28DFE9FA0046F5E9 /* MelfNoteSharingUITests */,
 				667DB79A28DFE9F90046F5E9 /* Products */,
+				F4B939DF63045693C9480BA3 /* Pods */,
+				83750A9DA5A4FC4CBE074DEB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +124,9 @@
 		667DB79B28DFE9F90046F5E9 /* MelfNoteSharing */ = {
 			isa = PBXGroup;
 			children = (
+				667DB7D228E083DA0046F5E9 /* view */,
+				667DB7CF28DFFF780046F5E9 /* model */,
+				667DB7CC28DFEF8F0046F5E9 /* controller */,
 				667DB79C28DFE9F90046F5E9 /* AppDelegate.swift */,
 				667DB79E28DFE9F90046F5E9 /* SceneDelegate.swift */,
 				667DB7A028DFE9F90046F5E9 /* ViewController.swift */,
@@ -127,6 +155,54 @@
 			path = MelfNoteSharingUITests;
 			sourceTree = "<group>";
 		};
+		667DB7CC28DFEF8F0046F5E9 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				667DB7CD28DFF0A20046F5E9 /* MainViewController.swift */,
+				667DB7D528E090730046F5E9 /* NewSubjectViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		667DB7CF28DFFF780046F5E9 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				667DB7D028DFFF8A0046F5E9 /* Subject.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		667DB7D228E083DA0046F5E9 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				667DB7D328E0840D0046F5E9 /* SearchCatalogView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		83750A9DA5A4FC4CBE074DEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				544F5F4BCC7AD459872425A8 /* Pods_MelfNoteSharing.framework */,
+				9660837AB18CD47EE4A2EE9D /* Pods_MelfNoteSharing_MelfNoteSharingUITests.framework */,
+				6A76C79BAE281AB21017C8C2 /* Pods_MelfNoteSharingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4B939DF63045693C9480BA3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA8E0BE053F44CB36CA3C1EB /* Pods-MelfNoteSharing.debug.xcconfig */,
+				0F63B327F588E639607BFDD4 /* Pods-MelfNoteSharing.release.xcconfig */,
+				30D9ABC1F62ED78BC830D2C3 /* Pods-MelfNoteSharing-MelfNoteSharingUITests.debug.xcconfig */,
+				B4A9E3A9AE3539FFB7988877 /* Pods-MelfNoteSharing-MelfNoteSharingUITests.release.xcconfig */,
+				252E47A66A58FDEFCBAE7430 /* Pods-MelfNoteSharingTests.debug.xcconfig */,
+				1547E99351D10821487B3094 /* Pods-MelfNoteSharingTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 667DB7C328DFE9FA0046F5E9 /* Build configuration list for PBXNativeTarget "MelfNoteSharing" */;
 			buildPhases = (
+				8E42489937A72CDCAB48FC54 /* [CP] Check Pods Manifest.lock */,
 				667DB79528DFE9F90046F5E9 /* Sources */,
 				667DB79628DFE9F90046F5E9 /* Frameworks */,
 				667DB79728DFE9F90046F5E9 /* Resources */,
+				172608E55BCA62A0D63DFEAF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +229,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 667DB7C628DFE9FA0046F5E9 /* Build configuration list for PBXNativeTarget "MelfNoteSharingTests" */;
 			buildPhases = (
+				7CE8D20D0B9FA5362105E973 /* [CP] Check Pods Manifest.lock */,
 				667DB7AB28DFE9FA0046F5E9 /* Sources */,
 				667DB7AC28DFE9FA0046F5E9 /* Frameworks */,
 				667DB7AD28DFE9FA0046F5E9 /* Resources */,
@@ -169,9 +248,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 667DB7C928DFE9FA0046F5E9 /* Build configuration list for PBXNativeTarget "MelfNoteSharingUITests" */;
 			buildPhases = (
+				F04E8012E1D22A16ED1BDED5 /* [CP] Check Pods Manifest.lock */,
 				667DB7B528DFE9FA0046F5E9 /* Sources */,
 				667DB7B628DFE9FA0046F5E9 /* Frameworks */,
 				667DB7B728DFE9FA0046F5E9 /* Resources */,
+				4FEF33E186D6B3A08F942801 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +334,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		172608E55BCA62A0D63DFEAF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MelfNoteSharing/Pods-MelfNoteSharing-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MelfNoteSharing/Pods-MelfNoteSharing-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MelfNoteSharing/Pods-MelfNoteSharing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FEF33E186D6B3A08F942801 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MelfNoteSharing-MelfNoteSharingUITests/Pods-MelfNoteSharing-MelfNoteSharingUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MelfNoteSharing-MelfNoteSharingUITests/Pods-MelfNoteSharing-MelfNoteSharingUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MelfNoteSharing-MelfNoteSharingUITests/Pods-MelfNoteSharing-MelfNoteSharingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CE8D20D0B9FA5362105E973 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MelfNoteSharingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E42489937A72CDCAB48FC54 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MelfNoteSharing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F04E8012E1D22A16ED1BDED5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MelfNoteSharing-MelfNoteSharingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		667DB79528DFE9F90046F5E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				667DB7D428E0840D0046F5E9 /* SearchCatalogView.swift in Sources */,
 				667DB7A128DFE9F90046F5E9 /* ViewController.swift in Sources */,
+				667DB7D128DFFF8A0046F5E9 /* Subject.swift in Sources */,
 				667DB79D28DFE9F90046F5E9 /* AppDelegate.swift in Sources */,
+				667DB7D628E090730046F5E9 /* NewSubjectViewController.swift in Sources */,
 				667DB79F28DFE9F90046F5E9 /* SceneDelegate.swift in Sources */,
+				667DB7CE28DFF0A20046F5E9 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +620,7 @@
 		};
 		667DB7C428DFE9FA0046F5E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA8E0BE053F44CB36CA3C1EB /* Pods-MelfNoteSharing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +649,7 @@
 		};
 		667DB7C528DFE9FA0046F5E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F63B327F588E639607BFDD4 /* Pods-MelfNoteSharing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +678,7 @@
 		};
 		667DB7C728DFE9FA0046F5E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 252E47A66A58FDEFCBAE7430 /* Pods-MelfNoteSharingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +699,7 @@
 		};
 		667DB7C828DFE9FA0046F5E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1547E99351D10821487B3094 /* Pods-MelfNoteSharingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +720,7 @@
 		};
 		667DB7CA28DFE9FA0046F5E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30D9ABC1F62ED78BC830D2C3 /* Pods-MelfNoteSharing-MelfNoteSharingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +739,7 @@
 		};
 		667DB7CB28DFE9FA0046F5E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4A9E3A9AE3539FFB7988877 /* Pods-MelfNoteSharing-MelfNoteSharingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
