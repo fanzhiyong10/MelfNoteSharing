@@ -1,0 +1,6 @@
+framework module Pods_MelfNoteSharingTests {
+  umbrella header "Pods-MelfNoteSharingTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
