@@ -3,11 +3,17 @@
 //  MelfNoteSharing
 //
 //  Created by 范志勇 on 2022/9/25.
-//
+// 
 
 import UIKit
 
-
+extension Notification.Name {
+    // new subject
+    static let hasPostNewSubject = Notification.Name("hasPostNewSubject")
+    
+    // new feedback
+    static let hasPostNewFeedBack = Notification.Name("hasPostNewFeedBack")
+}
 
 class MainViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     //MARK: 隐藏状态栏
@@ -34,6 +40,27 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         // 新增按钮
         self.createPlusButton()
+        
+        // 接收通知
+        NotificationCenter.default.addObserver(self, selector: #selector(updateInfo), name: .hasPostNewSubject, object: nil)
+
+        NotificationCenter.default.addObserver(self, selector: #selector(updateInfo), name: .hasPostNewFeedBack, object: nil)
+
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.view.backgroundColor = .white
+        self.navigationController?.navigationBar.prefersLargeTitles = false
+        self.navigationController?.navigationBar.backgroundColor = .white
+    }
+    
+    @objc func updateInfo() {
+        // 加载数据
+        self.loadData()
+        
+        // 刷新
+        self.tableView.reloadData()
     }
     
     /// 新增按钮
@@ -130,7 +157,14 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     /// 1. 临时加载：数据类中人工生成
     /// 2. 数据库
     func loadData() {
-        self.allSubjects = Subject.createData()
+//        self.allSubjects = Subject.createData()
+        
+        self.allSubjects = [Subject]()
+
+        if let subjects = DAOOfMelfNote.searchAllMelfSubjects() {
+            self.allSubjects = subjects
+        }
+        
     }
     
     var tableView: UITableView!
@@ -345,22 +379,39 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         do {
             let lab = cell.contentView.viewWithTag(103) as! UILabel
-            lab.text = String(subject.postMan!)
+            var str = subject.postMan
+            if str == "" {
+                str = "JohnDoe"
+            }
+            lab.text = str
         }
         
         do {
             let lab = cell.contentView.viewWithTag(104) as! UILabel
             lab.text = String(subject.catalog!)
+            /*
             if subject.count_feedback == 0 {
                 lab.text = ""
             } else {
                 lab.text = "\(subject.count_feedback!) feedback"
             }
+            */
+            lab.text = "\(subject.count_feedback!) feedback"
         }
         
         cell.contentView.backgroundColor = .white
         
         return cell
+    }
+    
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let subject = self.allSubjects[indexPath.row]
+        
+        let vc = DetailViewController()
+        vc.subject = subject
+        vc.modalPresentationStyle = .fullScreen
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
     /*

@@ -38,6 +38,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 print("Show the app's signed-in state.")
             }
         }
+        
+        // 串行队列：同步执行
+        let queueOfInitiateDatabase = DispatchQueue(label: "www.yuejingling.queueOfInitiateDatabase")
+        
+        // 移动、创建数据库
+        queueOfInitiateDatabase.sync {
+            DatabaseSpecification.moveDatabase()
+        }
+        
         return true
     }
 

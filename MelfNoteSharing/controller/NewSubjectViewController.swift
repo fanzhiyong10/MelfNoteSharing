@@ -141,6 +141,21 @@ class NewSubjectViewController: UIViewController, UITextViewDelegate {
     /// 保护条件
     /// - 不能为空
     @objc func postSubject() {
+        var subject = Subject()
+        let id_subject = DAOOfMelfNote.searchMaxID() + 1
+        subject.id_subject = id_subject
+        subject.postTime = Int(Date().timeIntervalSince1970)
+        
+        subject.catalog = self.catalogTF?.text
+        subject.title = self.titleTF?.text
+        subject.description = self.descriptionTV?.text
+        
+        if DAOOfMelfNote.insertNewMelfSubject(melfSubject: subject) == true {
+            print("postSubject 数据库存储成功")
+            
+            // 发送通知，更新
+            NotificationCenter.default.post(name: .hasPostNewSubject, object: self)
+        }
     }
 
 

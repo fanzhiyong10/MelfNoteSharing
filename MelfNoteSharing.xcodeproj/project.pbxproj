@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6637E7AB28E11F4C0090158D /* DatabaseSpecification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6637E7AA28E11F4C0090158D /* DatabaseSpecification.swift */; };
+		6637E7AD28E12E670090158D /* DAOOfMelfNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6637E7AC28E12E670090158D /* DAOOfMelfNote.swift */; };
+		6637E7BC28E12EE40090158D /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6637E7B128E12EE30090158D /* FMDatabasePool.m */; };
+		6637E7BD28E12EE40090158D /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6637E7B328E12EE30090158D /* FMDatabaseAdditions.m */; };
+		6637E7BE28E12EE40090158D /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6637E7B428E12EE30090158D /* FMDatabase.m */; };
+		6637E7BF28E12EE40090158D /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6637E7B628E12EE30090158D /* FMDatabaseQueue.m */; };
+		6637E7C028E12EE40090158D /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6637E7B928E12EE30090158D /* FMResultSet.m */; };
+		6637E7C228E152580090158D /* NewFeedBackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6637E7C128E152580090158D /* NewFeedBackViewController.swift */; };
+		6637E7C428E152A00090158D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6637E7C328E152A00090158D /* DetailViewController.swift */; };
+		6637E7C628E1D3D40090158D /* MelfNoteSharing.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 6637E7C528E1D3D40090158D /* MelfNoteSharing.sqlite */; };
 		667DB79D28DFE9F90046F5E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667DB79C28DFE9F90046F5E9 /* AppDelegate.swift */; };
 		667DB79F28DFE9F90046F5E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667DB79E28DFE9F90046F5E9 /* SceneDelegate.swift */; };
 		667DB7A128DFE9F90046F5E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667DB7A028DFE9F90046F5E9 /* ViewController.swift */; };
@@ -48,6 +58,24 @@
 		252E47A66A58FDEFCBAE7430 /* Pods-MelfNoteSharingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MelfNoteSharingTests.debug.xcconfig"; path = "Target Support Files/Pods-MelfNoteSharingTests/Pods-MelfNoteSharingTests.debug.xcconfig"; sourceTree = "<group>"; };
 		30D9ABC1F62ED78BC830D2C3 /* Pods-MelfNoteSharing-MelfNoteSharingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MelfNoteSharing-MelfNoteSharingUITests.debug.xcconfig"; path = "Target Support Files/Pods-MelfNoteSharing-MelfNoteSharingUITests/Pods-MelfNoteSharing-MelfNoteSharingUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		544F5F4BCC7AD459872425A8 /* Pods_MelfNoteSharing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MelfNoteSharing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6637E7AA28E11F4C0090158D /* DatabaseSpecification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseSpecification.swift; sourceTree = "<group>"; };
+		6637E7AC28E12E670090158D /* DAOOfMelfNote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DAOOfMelfNote.swift; sourceTree = "<group>"; };
+		6637E7AF28E12EE20090158D /* MelfNoteSharing-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MelfNoteSharing-Bridging-Header.h"; sourceTree = "<group>"; };
+		6637E7B028E12EE30090158D /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		6637E7B128E12EE30090158D /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		6637E7B228E12EE30090158D /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		6637E7B328E12EE30090158D /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		6637E7B428E12EE30090158D /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		6637E7B528E12EE30090158D /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		6637E7B628E12EE30090158D /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		6637E7B728E12EE30090158D /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		6637E7B828E12EE30090158D /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		6637E7B928E12EE30090158D /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		6637E7BA28E12EE40090158D /* M-Elf-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "M-Elf-Bridging-Header.h"; sourceTree = "<group>"; };
+		6637E7BB28E12EE40090158D /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		6637E7C128E152580090158D /* NewFeedBackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFeedBackViewController.swift; sourceTree = "<group>"; };
+		6637E7C328E152A00090158D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		6637E7C528E1D3D40090158D /* MelfNoteSharing.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = MelfNoteSharing.sqlite; sourceTree = "<group>"; };
 		667DB79928DFE9F90046F5E9 /* MelfNoteSharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MelfNoteSharing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		667DB79C28DFE9F90046F5E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		667DB79E28DFE9F90046F5E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +127,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6637E7A728E11EC80090158D /* database */ = {
+			isa = PBXGroup;
+			children = (
+				6637E7C528E1D3D40090158D /* MelfNoteSharing.sqlite */,
+				6637E7AA28E11F4C0090158D /* DatabaseSpecification.swift */,
+				6637E7AC28E12E670090158D /* DAOOfMelfNote.swift */,
+			);
+			path = database;
+			sourceTree = "<group>";
+		};
+		6637E7AE28E12EB90090158D /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				6637E7B228E12EE30090158D /* FMDatabase.h */,
+				6637E7B428E12EE30090158D /* FMDatabase.m */,
+				6637E7B828E12EE30090158D /* FMDatabaseAdditions.h */,
+				6637E7B328E12EE30090158D /* FMDatabaseAdditions.m */,
+				6637E7B528E12EE30090158D /* FMDatabasePool.h */,
+				6637E7B128E12EE30090158D /* FMDatabasePool.m */,
+				6637E7BB28E12EE40090158D /* FMDatabaseQueue.h */,
+				6637E7B628E12EE30090158D /* FMDatabaseQueue.m */,
+				6637E7B028E12EE30090158D /* FMDB.h */,
+				6637E7B728E12EE30090158D /* FMResultSet.h */,
+				6637E7B928E12EE30090158D /* FMResultSet.m */,
+				6637E7BA28E12EE40090158D /* M-Elf-Bridging-Header.h */,
+				6637E7AF28E12EE20090158D /* MelfNoteSharing-Bridging-Header.h */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
 		667DB79028DFE9F90046F5E9 = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +182,8 @@
 		667DB79B28DFE9F90046F5E9 /* MelfNoteSharing */ = {
 			isa = PBXGroup;
 			children = (
+				6637E7AE28E12EB90090158D /* fmdb */,
+				6637E7A728E11EC80090158D /* database */,
 				667DB7D228E083DA0046F5E9 /* view */,
 				667DB7CF28DFFF780046F5E9 /* model */,
 				667DB7CC28DFEF8F0046F5E9 /* controller */,
@@ -160,6 +220,8 @@
 			children = (
 				667DB7CD28DFF0A20046F5E9 /* MainViewController.swift */,
 				667DB7D528E090730046F5E9 /* NewSubjectViewController.swift */,
+				6637E7C328E152A00090158D /* DetailViewController.swift */,
+				6637E7C128E152580090158D /* NewFeedBackViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -276,6 +338,7 @@
 				TargetAttributes = {
 					667DB79828DFE9F90046F5E9 = {
 						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
 					};
 					667DB7AE28DFE9FA0046F5E9 = {
 						CreatedOnToolsVersion = 13.4.1;
@@ -312,6 +375,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6637E7C628E1D3D40090158D /* MelfNoteSharing.sqlite in Resources */,
 				667DB7A928DFE9FA0046F5E9 /* LaunchScreen.storyboard in Resources */,
 				667DB7A628DFE9FA0046F5E9 /* Assets.xcassets in Resources */,
 				667DB7A428DFE9F90046F5E9 /* Main.storyboard in Resources */,
@@ -442,11 +506,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6637E7AD28E12E670090158D /* DAOOfMelfNote.swift in Sources */,
 				667DB7D428E0840D0046F5E9 /* SearchCatalogView.swift in Sources */,
+				6637E7C028E12EE40090158D /* FMResultSet.m in Sources */,
 				667DB7A128DFE9F90046F5E9 /* ViewController.swift in Sources */,
+				6637E7BE28E12EE40090158D /* FMDatabase.m in Sources */,
+				6637E7C228E152580090158D /* NewFeedBackViewController.swift in Sources */,
+				6637E7BF28E12EE40090158D /* FMDatabaseQueue.m in Sources */,
+				6637E7C428E152A00090158D /* DetailViewController.swift in Sources */,
 				667DB7D128DFFF8A0046F5E9 /* Subject.swift in Sources */,
 				667DB79D28DFE9F90046F5E9 /* AppDelegate.swift in Sources */,
+				6637E7AB28E11F4C0090158D /* DatabaseSpecification.swift in Sources */,
 				667DB7D628E090730046F5E9 /* NewSubjectViewController.swift in Sources */,
+				6637E7BD28E12EE40090158D /* FMDatabaseAdditions.m in Sources */,
+				6637E7BC28E12EE40090158D /* FMDatabasePool.m in Sources */,
 				667DB79F28DFE9F90046F5E9 /* SceneDelegate.swift in Sources */,
 				667DB7CE28DFF0A20046F5E9 /* MainViewController.swift in Sources */,
 			);
@@ -624,6 +697,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8F27AJ65NP;
@@ -642,6 +716,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuejingling.MelfNoteSharing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MelfNoteSharing/fmdb/MelfNoteSharing-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -653,6 +729,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8F27AJ65NP;
@@ -671,6 +748,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuejingling.MelfNoteSharing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MelfNoteSharing/fmdb/MelfNoteSharing-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
